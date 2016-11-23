@@ -2,3 +2,5 @@
 *.DS_Store
 
 .src/app/javascripts/service/twitter.js
+
+src/app/javascripts/renderer/service/twitter.js
