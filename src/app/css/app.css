@@ -1,0 +1,28 @@
+.media-body > .user-name {
+	padding-right: 4px;
+}
+
+.media-body > .user-screen_name {
+	color: darkgray;
+}
+
+.media-body > .text {
+	white-space: normal;
+}
+
+.media-body > .media-img {
+	width: 50%;
+	height: auto;
+	display: block;
+}
+
+.media-body > .icon-retweet {
+	font-size: x-small;
+	color: darkgray;
+}
+
+/*自分で追加したやつ*/
+li {
+	border-bottom: solid 1px #cccccc;
+	padding: 10px;
+}
