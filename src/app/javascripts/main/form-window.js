@@ -16,12 +16,12 @@ module.exports = class FormWindow {
 		this.window = new BrowserWindow({
 			title: 'ツイート',
 			center: true,
-			resizable: false,
+			resizable: true,
 			minimizable: false,
 			maximizable: false,
 			width: 300,
 			height: 250
 		});
-		this.window.loadURL('file://${__dirname}/../../html/form.html');
+		this.window.loadURL(`file://${__dirname}/../../html/form.html`);
 	}
 };

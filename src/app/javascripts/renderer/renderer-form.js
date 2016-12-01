@@ -4,7 +4,7 @@
 	);
 	const React = require('react');
 	const ReactDOM = require('react-dom');
-	const FormContent = require('.components/form');
+	const FormContent = require('./components/form');
 
 	const root = document.getElementById('root');
 	ReactDOM.render(React.createElement(FormContent), root);
