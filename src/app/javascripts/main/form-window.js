@@ -10,6 +10,9 @@ module.exports = class FormWindow {
 		app.on('ready', () => {
 			this.createWindow();
 		});
+		app.on('showForm', () => {
+			this.window.show();
+		});
 	}
 
 	createWindow() {
